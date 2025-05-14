@@ -56,12 +56,8 @@ console.log("Trimmed String : " + sData1Trimmed);
 // 5️⃣ Searching Methods In String Class
 let sData6:string = "Learning TypeScript Is Child's Play";
 // indexOf(): Finds the first occurrence of a specified value.
-let index:number = sData6.indexOf('e');
-console.log("Index of e From Left To Right : " + index);
 
 // lastIndexOf(): Finds the last occurrence of a specified value.
-index = sData6.lastIndexOf('e');
-console.log("Index of e From Right To Left : " + index);
 
 // 6️⃣ Splitting String
 let sData7:string = "Rekha Jaya Susha Sabki Pasand Nrima";
@@ -80,10 +76,7 @@ let sArray3:string[] = sData9.split(",");
 console.log("Splitting String With ,: " + sArray3);
 
 // 7️⃣ Joining Array Elements
-let names:Array<String> = ["Rajesh S","Rohan S","Gandhar P","Sumit P","Pranay R"];
 // join(','): Joins array into a string separated by commas.
-let sDevelopers = names.join(",");
-console.log("Names Before Joining : " +  names);
 console.log("Names After Joining : " + sDevelopers);
 
 // 8️⃣ Starts With / Ends With
