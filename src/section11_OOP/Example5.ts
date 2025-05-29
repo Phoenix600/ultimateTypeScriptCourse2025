@@ -15,10 +15,25 @@
 // program–inside the class, outside it, or even from another file. For example,
 class MyPerson
 {
-    private age:number;
+    private _age:number;
+
+    // constructor
+    constructor(age:number)
+    {
+      this._age = age;
+    }
+
+    // Getter And Setter
+    get age(){
+      return this._age;
+    }
+
+    set age(value:number){
+      this._age = value;
+    }
 
     public greet()
     {
-
+      console.log(`Hello User.. Your Age Is ${age}`);
     }
 }
